@@ -1,0 +1,125 @@
+* {
+    font-family: 'Mitr', sans-serif;
+    /* font-family: 'Exo', sans-serif; */
+    /* font-family: 'Gruppo', sans-serif; */
+}
+
+body {
+    background-color: rgb(227,234,243);
+}
+
+.cal-container{
+    background: #e3eaf3;
+    width: 345px;
+    height: 560px;
+    text-align: center;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-radius: 25px;
+    margin: auto; 
+    margin-top: 50px;   
+    box-shadow: 8px 15px 20px 5px rgba(132, 132, 132, 0.791);
+}
+
+.display {
+    background-color: rgb(227,234,243);
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    top: 30px;
+    width: 270px;
+    border-radius: 5px;
+}
+
+#screen {
+    position: relative;
+    height: 85px;
+    top: 2.5px;
+    width: 260px;
+    background-color: rgb(227,234,243);
+    border: none;
+    text-align: right;
+    font-size: 3.2em;
+    border-radius: 5px;
+}
+
+.keys {
+    position: relative;
+    top: 40px;
+}
+
+.btn {
+    color: black;
+    background-color: rgb(227,234,243);
+    cursor: pointer;
+    width: 45px;
+    margin: 2px 3px 5px 3px;
+    font-size: 0.9em;
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-radius: 8px;
+    /* border-top: 1px solid transparent; */
+    padding: 3px;
+    box-shadow: 5px 3px 11px #a8a8a8;
+}
+
+.btn-sign {
+    background: rgb(222,229,243);
+    color: #000;
+    border-radius: 6px;
+    /* border-top: 1px solid #636363;
+    border-bottom: 1px solid #505050; */
+    font-size: 0.8em;
+}
+
+.btn-sign:active {
+    border-top: 1px solid rgb(222,229,243);
+    border-left: 1px solid rgb(222,229,243);
+}
+
+.btn-num {
+    background-color: rgb(227,234,243);
+    color: #000000;
+    font-size:  1.1em;
+    border-radius: 6px;
+    /* border-bottom: 2px solid #3b3737;
+    border-top: 2px solid black; */
+}
+
+.btn-num:active {
+    border-top: 1px solid rgb(222,229,243);
+    border-left: 1px solid rgb(222,229,243);
+}
+
+.btn-red {
+    background: rgb(254, 195, 85);
+    /* padding: 3px; */
+    color: #000;
+    font-size: 1.1em;
+    border-radius: 6px;
+    /* border-bottom: 2px solid #000;
+    border-top: 2px solid rgb(254, 195, 85); */
+    font-weight: 500;
+}
+
+.btn-red:active {
+    border-top: 1px solid rgb(222,229,243);
+    border-left: 1px solid rgb(222,229,243);
+    background: rgb(227,234,243);
+}
+
+.btn-operacion {
+    background: rgb(227,234,243);
+    color: #d32b2b;
+    font-size:  1.1em;
+    border-radius: 6px;
+    /* border-bottom: 2px solid #413c3c;
+    border-top: 2px solid #000; */
+}
+
+.btn-operacion:active {
+    border-top: 1px solid rgb(222,229,243);
+    border-left: 1px solid rgb(222,229,243);
+}
