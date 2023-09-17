@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Cientifica</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/calc-icon.png">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <!-- Icono -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="cal-container">
+        <!-- display -->
+        <div class="display">
+            <input type="text" id="screen" readonly placeholder="0">
+        </div>
+
+        <!-- Botones -->
+        <div class="keys">
+            <p>
+                <input type="button" value="sin" class="btn btn-sign">
+                <input type="button" value="cos" class="btn btn-sign">
+                <input type="button" value="tan" class="btn btn-sign">
+                <input type="button" value="asin" class="btn btn-sign">
+                <input type="button" value="acos" class="btn btn-sign">
+            </p>
+            <p>
+                <input type="button" value="atan" class="btn btn-sign">
+                <input type="button" value="π" class="btn btn-sign">
+                <input type="button" value="ln" class="btn btn-sign">
+                <input type="button" value="log" class="btn btn-sign">
+                <input type="button" value="%" class="btn btn-sign">
+            </p>
+            <p>
+                <input type="button" value="x&sup2" class="btn btn-sign">
+                <input type="button" value="x&sup3" class="btn btn-sign">
+                <input type="button" value="√" class="btn btn-sign">
+                <input type="button" value="(" class="btn btn-sign">
+                <input type="button" value=")" class="btn btn-sign">
+            </p>
+
+            <p style="margin-top: 30px;">
+                <input type="button" value="7" class="btn btn-num">
+                <input type="button" value="8" class="btn btn-num">
+                <input type="button" value="9" class="btn btn-num">
+                <input type="button" value="C" class="btn btn-operacion">
+                <!-- <input type="button" value=" " class="btn btn-operacion"> -->
+                <button class="btn btn-operacion" type="button"><i class="bi bi-backspace"></i></button>
+            </p>
+            <p>
+                <input type="button" value="4" class="btn btn-num">
+                <input type="button" value="5" class="btn btn-num">
+                <input type="button" value="6" class="btn btn-num">
+                <input type="button" value="x" class="btn btn-operacion">
+                <input type="button" value="/" class="btn btn-operacion">
+            </p>
+            <p>
+                <input type="button" value="1" class="btn btn-num">
+                <input type="button" value="2" class="btn btn-num">
+                <input type="button" value="3" class="btn btn-num">
+                <input type="button" value="+" class="btn btn-operacion">
+                <input type="button" value="-" class="btn btn-operacion">
+            </p>
+            <p>
+                <input type="button" value="0" class="btn btn-num">
+                <input type="button" value="±" class="btn btn-operacion">
+                <!-- <input type="button" value="." class="btn btn-num"> -->
+                <button class="btn btn-operacion" type="button"><i class="bi bi-dot"></i></button>
+                <input type="button" value="Exp" class="btn btn-operacion">
+                <input type="button" value="=" class="btn btn-red">
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
